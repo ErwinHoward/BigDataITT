@@ -1,42 +1,47 @@
-//1. Desarrollar un algoritmo en scala que calcule el radio de un circulo
+//1. Develop an algorithm in scale which calculates the radius of a circle
 
-val diameter : Double = 10
-val radio = diametro / 2
-radio
+val diameter : Double = 10  //Declare a constant value (val) as a double and assign it the value of 10
+val radio = diametro / 2    //Declare constant radio and assign the (diameter/2) result 
+radio                       //Shows radio value
 
-//2. Desarrollar un algoritmo en scala que me diga si un número es primo
 
-val numero : Int = 2
-var primo : Boolean = true
+//2. Develop an algorithm in scala that shows if a number is prime
 
-for(i <- Range(2, numero)) {
-  if((numero % i) == 0) {
-    primo = false
+val numero : Int = 2        //Declare an int variable and assign the value as 2
+var primo : Boolean = true  //Declare a boolean variable
+
+for(i <- Range(2, numero)) { //foor loop
+  if((numero % i) == 0) {   //If it's the module 0, then
+    primo = false           //primo is false
   }
 }
-if(primo){
-  println("Es Primo")
-} else {
-  println("No es Primo")
+if(primo){                //It's primo true, then
+  println("Es Primo")     //Print "Es priemo"
+} else {                  //It's primo false, then 
+  println("No es Primo")  //Print "No es primo"
 }
 
-//3. Dada la variable  var bird = "tweet", utiliza interpolación de strings para imprimir "Estoy ecribiendo un tweet"
 
-var bird = "tweet"
-printf("Estoy escribiendo un %s", bird)
+//3. Given the variable var bird = "tweet", use string interpolation to print "Estoy escribiendo un tweet"
 
-//4. Dada la variable var mensaje = "Hola Luke yo soy tu padre!" utiliza slice para extraer la secuencia "Luke"
-
-var mensaje = "Hola Luke yo soy tu padre!"
-mensaje.slice(5,9)
+var bird = "tweet"        //Assign "Tweet" to bird
+printf("Estoy escribiendo un %s", bird)//Print "Estoy scribiendo" adding the variable 'dird'
 
 
-//5. Cúal es la diferencia entre value (val) y una variable (var) en scala?
+//4. Given the variable var mensaje = "Hola Luke yo soy tu padre!" use slice to extract the sequence "Luke"
 
-//Un val es una referencia constante. Por lo tanto, no se puede asignar un nuevo objeto a un val que ya se ha asignado.
-//Una var es una variable de referencia, similar a las variables en lenguajes como Java. Se pueden asignar diferentes objetos a una var libremente, siempre que el objeto dado tenga el mismo tipo con el que se declaró la var.
+var mensaje = "Hola Luke yo soy tu padre!" //Assign value to the the variable
+mensaje.slice(5,9)//Take elements from mensaje from 5 to 9"
 
-//6. Dada la tupla (2,4,5,1,2,3,3.1416,23) regresa el número 3.1416
 
-val tupla = (2,4,5,1,2,3,3.1416,23)
-tupla._7
+//5. What's the difference between value (val) and a variable (var) in scala?
+
+//A val is a constant reference. So, once the value is assigned, it can't longer change.
+//A var is a reference variable, similar to variables in languages like Java. 
+//Different objects can be assigned to a var freely, as long as the given object has the same type as the var was declared with.
+
+
+//6. Given the tuple (2,4,5,1,2,3,3.1416,23) return the number 3.1416
+
+val tupla = (2,4,5,1,2,3,3.1416,23)//Assign values to the tuple
+tupla._7      //Return the element number 7 from the tuple
