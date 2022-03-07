@@ -1,6 +1,6 @@
 //1. Develop an algorithm in scale which calculates the radius of a circle
 
-val diameter : Double = 10  //Declare a constant value (val) as a double and assign it the value of 10
+val diametro : Double = 10  //Declare a constant value (val) as a double and assign it the value of 10
 val radio = diametro / 2    //Declare constant radio and assign the (diameter/2) result 
 radio                       //Shows radio value
 
