@@ -1,5 +1,37 @@
 //Algorithm 4
 
+//Algorithm 1
+def fibonacci1(num: Int):Int ={
+  if(num < 2){
+    return num
+  }else{
+  return fibonacci1(num-1)+fibonacci1(num-2)
+  }
+}
+
+fibonacci1(6)
+
+//Algorithm 2
+
+//all imports
+import scala.math.sqrt 
+import scala.math.pow
+def fibonacci2(num: Double):Double ={
+  var j = 0.0
+  if(num < 2){
+    return num
+  }else{
+    val aureo = (1+sqrt(5))/2
+    j = pow(aureo,num)
+    j = j - pow((1.0 - aureo),num)
+    j = j / sqrt(5)
+
+  }
+  return j
+}
+
+fibonacci2(6)
+
 //This algorithm needs three variables
                 
 var a: Int = 0     //Declaration of variables
