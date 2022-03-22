@@ -47,12 +47,18 @@ b. What percentage of the time was the "High" column greater than $500?
 c. What is the Pearson correlation between the "High" column and the "Volume" column?
 netflixdata.select(corr("High", "Volume")).show()
 
+
 d. What is the maximum of the "High" column per year?
 val colYear = df.withColumn(“Years, year(df("Date")))
+
 val dfYearMax = colAnio.groupBy(“Years”).max()
+
 dfYearMax.select($”Years”, $"max(High)").show()
+
 
 e. What is the "Close" column average for each calendar month?
 val colMonth = df.withColumn("Mes", month(df("Date")))
+
 val dfAverage = colMonth.groupBy("Mes").mean()
+
 dfAverage.select($"Mes", $"avg(Close)").show()
