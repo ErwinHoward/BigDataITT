@@ -54,9 +54,9 @@ c. What is the Pearson correlation between the "High" column and the "Volume" co
 d. What is the maximum of the "High" column per year?
 val colYear = df.withColumn(“Years, year(df("Date")))
 
-    val dfYearMax = colAnio.groupBy(“Years”).max()
+    val dfYearMax = colAnio.groupBy("Years").max()
 
-    dfYearMax.select($”Years”, $"max(High)").show()
+    dfYearMax.select($"Years", $"max(High)").show()
 
 
 e. What is the "Close" column average for each calendar month?
