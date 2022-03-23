@@ -19,7 +19,7 @@
     netflixdata.select($"Date",$"Open",$"High",$"Low",$"Close").show()
 
 ###  6. Use describe () to learn about the DataFrame.
-    netflixdata.describe()
+    netflixdata.describe().show()
 
 ###  7. Create a new dataframe with a new column called "HV Ratio" which is the relationship between the price of the "High" column versus the "Volume" column of shares traded for one day. Hint - is an operation
     var newhvratio = netflixdata.withColumn("HV Ratio", netflixdata("High")/netflixdata("Volume"))
