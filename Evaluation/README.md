@@ -22,7 +22,7 @@
     netflixdata.describe().show()
 
 ###  7. Create a new dataframe with a new column called "HV Ratio" which is the relationship between the price of the "High" column versus the "Volume" column of shares traded for one day. Hint - is an operation
-    var newhvratio = netflixdata.withColumn("HV Ratio", netflixdata("High")/netflixdata("Volume"))
+    var newhvratio = ("HV Ratio", netflixdata("High")/netflixdata("Volume"))
 
 ###  8. What day had the highest peak in the "Open" column?
     val daymax = netflixdata.withColumn("Day", dayofmonth(netflixdata("Date")))
@@ -52,16 +52,19 @@ c. What is the Pearson correlation between the "High" column and the "Volume" co
 
 
 d. What is the maximum of the "High" column per year?
-val colYear = df.withColumn(“Years, year(df("Date")))
+    
+    val colYear = netflixdata.withColumn("Years", year(netflixdata("Date")))
 
-    val dfYearMax = colAnio.groupBy("Years").max()
+    val dfYearMax = colYear.groupBy("Years").max()
 
     dfYearMax.select($"Years", $"max(High)").show()
 
 
 e. What is the "Close" column average for each calendar month?
-val colMonth = df.withColumn("Mes", month(df("Date")))
+
+    val colMonth = netflixdata.withColumn("Mes", month(netflixdata("Date")))
 
     val dfAverage = colMonth.groupBy("Mes").mean()
 
     dfAverage.select($"Mes", $"avg(Close)").show()
+
