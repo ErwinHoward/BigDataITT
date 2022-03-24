@@ -4,8 +4,14 @@ Unit 1
 
 - [Evaluation](https://github.com/ErwinHoward/BigDataITT/blob/Unit-1/Evaluation/README.md)
 
-- [Tasks](https://github.com/ErwinHoward/BigDataITT/blob/Unit-1/Homeworks/README.md)
+- Practices
 
-- [Practices](https://github.com/ErwinHoward/BigDataITT/blob/Unit-1/Practices/README.md)
+  - [Practice 2](https://github.com/ErwinHoward/BigDataITT/blob/Unit-1/Practices/Practice2.scala)
+
+  - [Practice 3](https://github.com/ErwinHoward/BigDataITT/blob/Unit-1/Practices/practice3.scala)
+
+  - [Practice 4](https://github.com/ErwinHoward/BigDataITT/blob/Unit-1/Practices/practice4.scala)
 
 - [Research](https://github.com/ErwinHoward/BigDataITT/blob/Unit-1/Research/README.md)
+
+- [Tasks](https://github.com/ErwinHoward/BigDataITT/blob/Unit-1/Homeworks/README.md)
