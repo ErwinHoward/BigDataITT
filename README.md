@@ -1,6 +1,5 @@
-# BigDataITT
+# BigDataITT: Unit 1
 
-Unit 1
 
 - [Evaluation](https://github.com/ErwinHoward/BigDataITT/blob/Unit-1/Evaluation/README.md)
 
