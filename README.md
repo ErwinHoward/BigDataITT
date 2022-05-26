@@ -1,5 +1,14 @@
-# Unit 2
+# Big Data
 
-[Practices](https://github.com/ErwinHoward/BigDataITT/tree/Unit-2/Practices)
+### Howard Herrera Erwin - 18210716
+### Ramos Robles Kathy Abigail - 17211556
 
-[Evaluation](https://github.com/ErwinHoward/BigDataITT/tree/Unit-2/Evaluation)
+## Unit 2
+- [Practice 1](https://github.com/ErwinHoward/BigDataITT/blob/Unit-2/Practices/practice1.md)
+- [Practice 2](https://github.com/ErwinHoward/BigDataITT/blob/Unit-2/Practices/practice2.md)
+- [Practice 3](https://github.com/ErwinHoward/BigDataITT/blob/Unit-2/Practices/practice3.md)
+- [Prractice 4](https://github.com/ErwinHoward/BigDataITT/blob/Unit-2/Practices/practice4.md)
+- [Practice 5](https://github.com/ErwinHoward/BigDataITT/blob/Unit-2/Practices/practice5.md)
+- [Practice 6](https://github.com/ErwinHoward/BigDataITT/blob/Unit-2/Practices/practice6.md)
+- [Prractice 7](https://github.com/ErwinHoward/BigDataITT/blob/Unit-2/Practices/practice7.md)
+- [Evaluation](https://github.com/ErwinHoward/BigDataITT/blob/Unit-2/Evaluation/README.md)
